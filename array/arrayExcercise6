@@ -1,0 +1,14 @@
+
+
+function oddLength(array) {
+let length = array.map(number => number.length);
+let evenLength = length.filter(num => num % 2 === 1);
+return evenLength;
+}
+
+let arr = ['a', 'abcd', 'abcde', 'abc', 'ab'];
+console.log(oddLength(arr));
+
+
+
+

@@ -1,0 +1,20 @@
+let obj = {
+  b: 2,
+  a: 1,
+  c: 3,
+};
+
+let arrayObj = Object.keys(obj);
+
+let upperObj = arrayObj.map(num => num.toUpperCase());
+
+console.log(upperObj)
+console.log(obj)
+
+let upperKeys = [];
+let objKeys = Object.keys(obj);
+objKeys.forEach(function(key){
+(key.toUpperCase())
+});
+
+console.log(key)

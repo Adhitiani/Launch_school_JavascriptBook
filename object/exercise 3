@@ -1,0 +1,19 @@
+let bob = { name: 'Bob', age: 22 };
+
+let person =  {
+name: 'Bob',
+age: 31,
+height: '6ft'
+};
+
+for(let prp in person) {
+console.log(person[prp]);
+}
+
+
+
+
+
+
+
+
